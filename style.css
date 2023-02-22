@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  min-height: calc(100% - 70px); 
+  margin-left: 2rem; 
+}
+
+.formulario1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 2rem; 
+}
+
+.formulario2 {
+  margin-bottom: 1rem; 
+}
+
+.formulario3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-actions button {
+  margin-left: 1rem; 
+}
